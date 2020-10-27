@@ -1,0 +1,27 @@
+[
+    {
+        "name": "karthi",
+        "city": "punganur",
+        "type": "Non-Vegetarian",
+        "cuisine": ["indian", "chinese"]
+    },
+    {
+        "name": "newpic",
+        "city": "bangalore",
+        "type": "Vegetarian",
+        "cuisine": ["indian"]
+    },
+    {
+        "name": "royals",
+        "city": "hyderabad",
+        "type": "Non-Vegetarian",
+        "cuisine": ["indian"]
+    },
+    {
+        "name": "murali krishna",
+        "city": "nellore",
+        "type": "Non-Vegetarian",
+        "cuisine": ["indian","chinese"]
+
+    }
+]

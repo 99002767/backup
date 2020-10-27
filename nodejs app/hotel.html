@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel List</title>
+    <style>
+        body{
+            background-color: aqua;
+            padding:5px;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            font-weight: bold;
+        }
+        div{
+            color:black;
+            font-size: larger;
+            text-align:center
+        }
+    </style>
+</head>
+<body>
+    <h1>Hotel application using nodejs</h1>
+    <div>
+        <form action="http://localhost:30001/details">
+            View Hotels as per ur wish<input type="submit">
+        </form>
+    </div>
+    <br>
+    <div>
+        <form action="http://localhost:30001/searchByCity">
+            Search Hotels according to the City <input type="text" name="searchCity">
+            <input type="submit">
+        </form>
+    </div>
+    <br>
+    <div>
+        <form action="http://localhost:30001/searchByType">
+            <h3>type like veg or non-veg</h3>
+            <select name="sType">
+                <option>type u want</option>
+                <option value="Veg">Vegetarian</option>
+                <option value="Non-Veg">Non-Ve</option>
+            </select>
+            <input type="submit">
+        </form>
+    </div>
+    <br>
+    <div>
+        <form action="http://localhost:30001/searchByCuisine">
+            Search Hotels according Cuisine <input type="text" name="sCuisine">
+            <input type="submit">
+        </form>
+    </div>
+    
+</body>
+</html>
